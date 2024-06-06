@@ -48,6 +48,8 @@
     border: none;
     cursor: pointer;
  }
+
+ /* #393939 */
 .navbar button img{
     width: 13px;
 }
