@@ -40,13 +40,15 @@ gap: 10px;
 }
  .hero button{
   border: none;
-  background: #7927ff;
+  background: #5B58EB;
 color: white;
 font-size: 16px;
 padding: 10px 30px;
 border-radius: 5px;
 cursor: pointer;
  }
+
+ /* #7927ff; */
  .crypto-table{
     max-width: 800px;
     margin: auto;
