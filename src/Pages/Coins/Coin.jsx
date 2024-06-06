@@ -19,7 +19,7 @@ const fetchCoinData=async()=>{
     method: 'GET',
     headers: {
       accept: 'application/json',
-      'x-cg-demo-api-key': '	CG-UTCbe8ByT4SpWyx7KEz2p6nj'
+      'x-cg-demo-api-key': '	'
     }
   };
   
@@ -34,7 +34,7 @@ const fetchHistoricalData=async()=>{
     method: 'GET',
     headers: {
       accept: 'application/json',
-      'x-cg-demo-api-key': '	'
+      'x-cg-demo-api-key': ' '
     }
   };
   
@@ -54,7 +54,7 @@ if (coinData && historicalData) {
   
   return (
     <div className='coin'>
-      <h1>coin :{coinId}</h1>
+     
      <div className="coin-name">
       <img src={coinData.image.large} alt="" />
       <p><b>{coinData.name} ({coinData.symbol.toUpperCase()})</b></p>
